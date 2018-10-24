@@ -31,7 +31,7 @@ li a {
   padding: 10px;
   display: block;
   border-radius: 3px;
-  background-color:#ffff;
+  background-color:#fff;
 }
 a {
   color: #333;
@@ -124,9 +124,6 @@ footer a{
 TABLET STYLES
 ********************/
 @media (min-width:768px){
-  body{
-    max-width: ;
-  }
   .header-nav {
     display:flex;
     flex-direction: row;
