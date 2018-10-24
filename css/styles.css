@@ -51,7 +51,7 @@ a {
 }
 .testimonies {
   color: #f7f7f7;
-  background-color: #333;
+  background-color: #54BBB4;
 }
 .testimonies img {
   max-width: 200px;
@@ -68,6 +68,9 @@ h2,
 p {
   font-family: 'Raleway', sans-serif;
 }
+h2 {
+  margin-bottom: 10px;
+}
 p {
   max-width: 490px;
   margin: auto;
@@ -79,9 +82,43 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.testimony-header {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: -24px;
+  padding-bottom: 10px;
+  color: #f7f7f7;
+  background-color: #54BBB4;
+}
 .phone,
 .email {
   margin: 15px auto 15px;
+}
+footer {
+  margin-top:10px;
+}
+footer a{
+  font-weight: bolder;
+}
+.footer1,
+.nav1 {
+  display:flex;
+}
+.nav1 {
+  width:100%;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+.nav1 h1{
+  font-size:1.2em;
+}
+.nav1 p{
+  margin:0;
+  font-size:.8em;
+  font-weight: bolder;
+}
+.footer2{
+  visibility: hidden;
 }
 /********************
 TABLET STYLES
@@ -122,14 +159,6 @@ TABLET STYLES
   .main div{
     max-width:38%;
   }
-  .testimony-header {
-    display:flex;
-    flex-direction: column;
-    margin-bottom: -24px;
-    padding-bottom: 10px;
-    color: #f7f7f7;
-    background-color: #333;
-  }
   .testimonies {
     display:flex;
     flex-direction: row;
@@ -146,8 +175,19 @@ TABLET STYLES
   img {
     max-width: 100%;
   }
-  .mobile-footer {
-    display: none;
+  .nav1{
+    display:none;
+  }
+  .nav2,
+  ul {
+    display: flex;
+    visibility: visible;
+  }
+  .nav2 {
+    width: 100%;
+    justify-content: space-between;
+    padding-left:5px;
+    padding-right:5px;
   }
 }
 /********************
